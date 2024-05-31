@@ -4,12 +4,17 @@
   "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
+    "build": "webpack",
     "start": "node app.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "mysql": "^2.18.1",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "webpack": "^5.91.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
   }
 }
